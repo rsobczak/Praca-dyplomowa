@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BF925D88B7B00D42F79 /* AppDelegate.swift */; };
 		586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */; };
-		586F9BFE25D88B7B00D42F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFD25D88B7B00D42F79 /* ViewController.swift */; };
-		586F9C0125D88B7B00D42F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9BFF25D88B7B00D42F79 /* Main.storyboard */; };
+		586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */; };
+		586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */; };
 		586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0225D88B7D00D42F79 /* Assets.xcassets */; };
 		586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */; };
+		58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B6EB8825E57569009145E1 /* OnboardingView.storyboard */; };
+		58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		586F9BF625D88B7B00D42F79 /* Praca dyplomowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praca dyplomowa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F9BF925D88B7B00D42F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		586F9BFD25D88B7B00D42F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		586F9C0025D88B7B00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		586F9C0025D88B7B00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeView.storyboard; sourceTree = "<group>"; };
 		586F9C0225D88B7D00D42F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586F9C0525D88B7D00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586F9C0725D88B7D00D42F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B6EB8825E57569009145E1 /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
+		58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,65 @@
 		586F9BF825D88B7B00D42F79 /* Praca dyplomowa */ = {
 			isa = PBXGroup;
 			children = (
+				58B6EB8B25E575C9009145E1 /* ViewControllers */,
+				58B6EB8425E57487009145E1 /* Views */,
 				586F9BF925D88B7B00D42F79 /* AppDelegate.swift */,
 				586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */,
-				586F9BFD25D88B7B00D42F79 /* ViewController.swift */,
-				586F9BFF25D88B7B00D42F79 /* Main.storyboard */,
 				586F9C0225D88B7D00D42F79 /* Assets.xcassets */,
-				586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */,
 				586F9C0725D88B7D00D42F79 /* Info.plist */,
 			);
 			path = "Praca dyplomowa";
+			sourceTree = "<group>";
+		};
+		58B6EB8425E57487009145E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58B6EB8725E57538009145E1 /* Onboarding */,
+				58B6EB8625E574E8009145E1 /* Home */,
+				58B6EB8525E574A2009145E1 /* LaunchScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58B6EB8525E574A2009145E1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		58B6EB8625E574E8009145E1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		58B6EB8725E57538009145E1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				58B6EB8825E57569009145E1 /* OnboardingView.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		58B6EB8B25E575C9009145E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58B6EB8D25E5760C009145E1 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58B6EB8D25E5760C009145E1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */,
+				58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +181,8 @@
 			files = (
 				586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */,
 				586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */,
-				586F9C0125D88B7B00D42F79 /* Main.storyboard in Resources */,
+				58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */,
+				586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +193,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586F9BFE25D88B7B00D42F79 /* ViewController.swift in Sources */,
+				586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */,
 				586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */,
 				586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */,
+				58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		586F9BFF25D88B7B00D42F79 /* Main.storyboard */ = {
+		586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				586F9C0025D88B7B00D42F79 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeView.storyboard;
 			sourceTree = "<group>";
 		};
 		586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */ = {
