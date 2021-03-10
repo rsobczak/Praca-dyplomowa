@@ -60,6 +60,8 @@
 		586F9BF825D88B7B00D42F79 /* Praca dyplomowa */ = {
 			isa = PBXGroup;
 			children = (
+				58C347FE25E630B1009BF21C /* Model */,
+				58C347FF25E630BA009BF21C /* Controler */,
 				58B6EB8B25E575C9009145E1 /* ViewControllers */,
 				58B6EB8425E57487009145E1 /* Views */,
 				586F9BF925D88B7B00D42F79 /* AppDelegate.swift */,
@@ -119,6 +121,20 @@
 				58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		58C347FE25E630B1009BF21C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58C347FF25E630BA009BF21C /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
