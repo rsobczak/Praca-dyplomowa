@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Praca dyplomowa
 //
 //  Created by Radoslaw Sobczak on 13/02/2021.
@@ -8,12 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
         view.backgroundColor = .red
+        navigationItem.title = "Welcome"
+        
+    
     }
 
 
