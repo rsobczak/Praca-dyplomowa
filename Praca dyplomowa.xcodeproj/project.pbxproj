@@ -15,6 +15,10 @@
 		586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */; };
 		58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B6EB8825E57569009145E1 /* OnboardingView.storyboard */; };
 		58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */; };
+		58E9E1C82641BA6B00FA6D69 /* ChooseInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */; };
+		58E9E1CB2641BAAB00FA6D69 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */; };
+		58E9E1CE2641BAF900FA6D69 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */; };
+		58E9E1D12641BB2800FA6D69 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		586F9C0725D88B7D00D42F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B6EB8825E57569009145E1 /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
 		58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInteractionViewController.swift; sourceTree = "<group>"; };
+		58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
+		58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,18 +117,14 @@
 		58B6EB8B25E575C9009145E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				58B6EB8D25E5760C009145E1 /* Home */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		58B6EB8D25E5760C009145E1 /* Home */ = {
-			isa = PBXGroup;
-			children = (
 				586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */,
 				58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */,
+				58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */,
+				58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */,
+				58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */,
+				58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */,
 			);
-			path = Home;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		58C347FE25E630B1009BF21C /* Model */ = {
@@ -209,10 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E9E1CB2641BAAB00FA6D69 /* CompareViewController.swift in Sources */,
 				586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */,
+				58E9E1C82641BA6B00FA6D69 /* ChooseInteractionViewController.swift in Sources */,
+				58E9E1CE2641BAF900FA6D69 /* AboutViewController.swift in Sources */,
 				586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */,
 				586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */,
 				58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */,
+				58E9E1D12641BB2800FA6D69 /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
