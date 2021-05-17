@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChooseInteractionViewController: UIViewController {
+class ChooseInteractionViewController: BasicViewController { //UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
