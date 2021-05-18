@@ -1,21 +1,21 @@
 //
-//  ViewController.swift
+//  AboutViewController.swift
 //  Praca dyplomowa
 //
-//  Created by Radoslaw Sobczak on 13/02/2021.
+//  Created by Radoslaw Sobczak on 18/05/2021.
 //  Copyright © 2021 Radoslaw Sobczak. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class AboutViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .red
+        navigationItem.title = "About"
     }
 
 
 }
-

@@ -13,8 +13,17 @@
 		586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */; };
 		586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0225D88B7D00D42F79 /* Assets.xcassets */; };
 		586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */; };
-		58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B6EB8825E57569009145E1 /* OnboardingView.storyboard */; };
 		58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */; };
+		58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597772653D883001F8126 /* CustomNormalButton.swift */; };
+		58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */; };
+		58D5977E2653D8E2001F8126 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5977D2653D8E2001F8126 /* CustomLabel.swift */; };
+		58D597812653D902001F8126 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597802653D902001F8126 /* CustomTextView.swift */; };
+		58D597842653D92B001F8126 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597832653D92B001F8126 /* CustomImageView.swift */; };
+		58D597872653D97E001F8126 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597862653D97E001F8126 /* BasicViewController.swift */; };
+		58D5978A2653D9B3001F8126 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597892653D9B3001F8126 /* CompareViewController.swift */; };
+		58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5978E2653D9CF001F8126 /* AboutViewController.swift */; };
+		58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597922653D9F7001F8126 /* AuthorViewController.swift */; };
+		58D597962653DA24001F8126 /* ChooseInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +35,17 @@
 		586F9C0225D88B7D00D42F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586F9C0525D88B7D00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586F9C0725D88B7D00D42F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58B6EB8825E57569009145E1 /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
 		58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		58D597772653D883001F8126 /* CustomNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNormalButton.swift; sourceTree = "<group>"; };
+		58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSmallButton.swift; sourceTree = "<group>"; };
+		58D5977D2653D8E2001F8126 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		58D597802653D902001F8126 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		58D597832653D92B001F8126 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		58D597862653D97E001F8126 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		58D597892653D9B3001F8126 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
+		58D5978E2653D9CF001F8126 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		58D597922653D9F7001F8126 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInteractionViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 		586F9BF825D88B7B00D42F79 /* Praca dyplomowa */ = {
 			isa = PBXGroup;
 			children = (
+				58D597762653D852001F8126 /* Controlls */,
 				58C347FE25E630B1009BF21C /* Model */,
 				58C347FF25E630BA009BF21C /* Controler */,
 				58B6EB8B25E575C9009145E1 /* ViewControllers */,
@@ -75,52 +94,24 @@
 		58B6EB8425E57487009145E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				58B6EB8725E57538009145E1 /* Onboarding */,
-				58B6EB8625E574E8009145E1 /* Home */,
-				58B6EB8525E574A2009145E1 /* LaunchScreen */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		58B6EB8525E574A2009145E1 /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
+				586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */,
 				586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */,
 			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
-		58B6EB8625E574E8009145E1 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		58B6EB8725E57538009145E1 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				58B6EB8825E57569009145E1 /* OnboardingView.storyboard */,
-			);
-			path = Onboarding;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		58B6EB8B25E575C9009145E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				58B6EB8D25E5760C009145E1 /* Home */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		58B6EB8D25E5760C009145E1 /* Home */ = {
-			isa = PBXGroup;
-			children = (
+				58D597862653D97E001F8126 /* BasicViewController.swift */,
 				586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */,
 				58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */,
+				58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */,
+				58D597892653D9B3001F8126 /* CompareViewController.swift */,
+				58D5978E2653D9CF001F8126 /* AboutViewController.swift */,
+				58D597922653D9F7001F8126 /* AuthorViewController.swift */,
 			);
-			path = Home;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		58C347FE25E630B1009BF21C /* Model */ = {
@@ -135,6 +126,18 @@
 			children = (
 			);
 			path = Controler;
+			sourceTree = "<group>";
+		};
+		58D597762653D852001F8126 /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				58D597772653D883001F8126 /* CustomNormalButton.swift */,
+				58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */,
+				58D5977D2653D8E2001F8126 /* CustomLabel.swift */,
+				58D597802653D902001F8126 /* CustomTextView.swift */,
+				58D597832653D92B001F8126 /* CustomImageView.swift */,
+			);
+			path = Controlls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +200,6 @@
 			files = (
 				586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */,
 				586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */,
-				58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */,
 				586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,10 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D597962653DA24001F8126 /* ChooseInteractionViewController.swift in Sources */,
 				586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */,
+				58D597872653D97E001F8126 /* BasicViewController.swift in Sources */,
+				58D597842653D92B001F8126 /* CustomImageView.swift in Sources */,
 				586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */,
+				58D597812653D902001F8126 /* CustomTextView.swift in Sources */,
+				58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */,
+				58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */,
+				58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */,
+				58D5977E2653D8E2001F8126 /* CustomLabel.swift in Sources */,
+				58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */,
 				586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */,
 				58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */,
+				58D5978A2653D9B3001F8126 /* CompareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
