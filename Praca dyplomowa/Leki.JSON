@@ -1,0 +1,51 @@
+{
+"leki": [
+    {
+      "nazwa": "Ibuprom",
+      "subst": "Ibuprofen"
+
+    },
+    {
+      "nazwa": "Sprycel",
+      "subst": "Dazatynib"
+    },
+    {
+      "nazwa": "Aspirin",
+      "subst": "Kwas acetylosalicylowy"
+    },
+    {
+      "nazwa": "Olumiant",
+      "subst": "Baricytynib"
+    },
+    
+    {
+      "nazwa": "Duomox",
+      "subst": "Amoksycyklina"
+    },
+    {
+      "nazwa": "Sintrom",
+      "subst": "Acenokumarol"
+    }
+  ],
+
+  "interakcje": [
+    {
+      "substancja_1": "Ibuprofen",
+      "substancja_2": "Dazatynib",
+      "stopien_interakcji": "bardzo powazny",
+      "opis": "Leki o które pytasz zawierają w swoim składzie DAZATYNIB oraz IBUPROFEN. Jednoczesne, doustne, stosowanie tych leków zwiększa ryzyko wystąpienia krwawień, zwłaszcza z przewodu pokarmowego"
+    },
+    {
+      "substancja_1": "Kwas acetylosalicylowy",
+      "substancja_2": "Baricytynib",
+      "stopien_interakcji": "bardzo powazny",
+      "opis": "Leki o które pytasz zawierają w swoim składzie BARICYTYNIB oraz KWAS ACETYLOSALICYLOWY.Stosowanie obu leków jednocześnie zwiększa ryzyko wystąpienia stanów zapalnych śluzówki przewodu pokarmowego, które mogą prowadzić do owrzodzenia a nawet pęknięcia ściany jelit."
+    },
+    {
+      "substancja_1": "Amoksycyklina",
+      "substancja_2": "Acenokumarol",
+      "stopien_interakcji": "istotna interakcja",
+      "opis": "Przyjmujesz leki zawierające w swoim składzie ACENOKUMAROL oraz AMOKSYCYLINĘ. Amoksycylina może nasilać działanie przeciwzakrzepowe acenokumarolu zwiększając się tym samym ryzyko krwawień, powstawania siniaków i wydłużenia czasu krwawienia z wszelkich zranień. "
+    }
+    ]
+}

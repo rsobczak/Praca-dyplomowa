@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+//MARK: About View Controller
+
 class AboutViewController: BaseViewController {
 
     override func viewDidLoad() {
@@ -16,6 +18,4 @@ class AboutViewController: BaseViewController {
         // Do any additional setup after loading the view.
         navigationItem.title = "About"
     }
-
-
 }

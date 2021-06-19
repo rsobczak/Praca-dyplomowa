@@ -9,12 +9,15 @@
 import Foundation
 import UIKit
 
+
+//MARK: About Author View Controller
+
 class AuthorViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.title = "Author"
-        view.backgroundColor = .yellow
+        //view.backgroundColor = .yellow
     }
 }

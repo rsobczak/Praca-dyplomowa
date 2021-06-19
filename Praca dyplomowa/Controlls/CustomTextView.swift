@@ -17,8 +17,8 @@ class CustomTextView : UITextView {
         
         self.textAlignment = .center
         self.backgroundColor = .systemPink
-        self.layer.borderWidth = 1
+        self.layer.borderWidth = 3
         self.layer.borderColor = UIColor.blue.cgColor
-        
+        self.layer.cornerRadius = 15	
         }
 }

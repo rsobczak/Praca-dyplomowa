@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5844BF5F265C2FD300DB5A4B /* Lek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF5E265C2FD300DB5A4B /* Lek.swift */; };
+		5844BF62265C2FE100DB5A4B /* Interakcja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF61265C2FE100DB5A4B /* Interakcja.swift */; };
+		5844BF65265C2FF900DB5A4B /* BazaDanych.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF64265C2FF900DB5A4B /* BazaDanych.swift */; };
+		5844BF68265C311C00DB5A4B /* StopienInterakcji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */; };
+		5859ABE72666CD6500BF924D /* AlcoholCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */; };
 		586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BF925D88B7B00D42F79 /* AppDelegate.swift */; };
 		586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */; };
 		586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */; };
 		586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */; };
 		586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0225D88B7D00D42F79 /* Assets.xcassets */; };
 		586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */; };
+		58A5A56426559BBA0018531B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A5A56326559BBA0018531B /* SettingsViewController.swift */; };
+		58A5A5672655A4F40018531B /* Leki.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A5662655A4F40018531B /* Leki.JSON */; };
 		58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */; };
 		58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597772653D883001F8126 /* CustomNormalButton.swift */; };
 		58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */; };
@@ -27,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5844BF5E265C2FD300DB5A4B /* Lek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lek.swift; sourceTree = "<group>"; };
+		5844BF61265C2FE100DB5A4B /* Interakcja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interakcja.swift; sourceTree = "<group>"; };
+		5844BF64265C2FF900DB5A4B /* BazaDanych.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazaDanych.swift; sourceTree = "<group>"; };
+		5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopienInterakcji.swift; sourceTree = "<group>"; };
+		5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholCompareViewController.swift; sourceTree = "<group>"; };
 		586F9BF625D88B7B00D42F79 /* Praca dyplomowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praca dyplomowa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F9BF925D88B7B00D42F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +47,8 @@
 		586F9C0225D88B7D00D42F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586F9C0525D88B7D00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586F9C0725D88B7D00D42F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A5A56326559BBA0018531B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		58A5A5662655A4F40018531B /* Leki.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Leki.JSON; sourceTree = "<group>"; };
 		58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		58D597772653D883001F8126 /* CustomNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNormalButton.swift; sourceTree = "<group>"; };
 		58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSmallButton.swift; sourceTree = "<group>"; };
@@ -87,6 +101,7 @@
 				586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */,
 				586F9C0225D88B7D00D42F79 /* Assets.xcassets */,
 				586F9C0725D88B7D00D42F79 /* Info.plist */,
+				58A5A5662655A4F40018531B /* Leki.JSON */,
 			);
 			path = "Praca dyplomowa";
 			sourceTree = "<group>";
@@ -110,6 +125,8 @@
 				58D597892653D9B3001F8126 /* CompareViewController.swift */,
 				58D5978E2653D9CF001F8126 /* AboutViewController.swift */,
 				58D597922653D9F7001F8126 /* AuthorViewController.swift */,
+				58A5A56326559BBA0018531B /* SettingsViewController.swift */,
+				5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -117,6 +134,10 @@
 		58C347FE25E630B1009BF21C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5844BF5E265C2FD300DB5A4B /* Lek.swift */,
+				5844BF61265C2FE100DB5A4B /* Interakcja.swift */,
+				5844BF64265C2FF900DB5A4B /* BazaDanych.swift */,
+				5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +221,7 @@
 			files = (
 				586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */,
 				586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */,
+				58A5A5672655A4F40018531B /* Leki.JSON in Resources */,
 				586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5844BF5F265C2FD300DB5A4B /* Lek.swift in Sources */,
+				5859ABE72666CD6500BF924D /* AlcoholCompareViewController.swift in Sources */,
 				58D597962653DA24001F8126 /* ChooseInteractionViewController.swift in Sources */,
+				5844BF62265C2FE100DB5A4B /* Interakcja.swift in Sources */,
 				586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */,
 				58D597872653D97E001F8126 /* BasicViewController.swift in Sources */,
 				58D597842653D92B001F8126 /* CustomImageView.swift in Sources */,
@@ -219,7 +244,10 @@
 				58D597812653D902001F8126 /* CustomTextView.swift in Sources */,
 				58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */,
 				58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */,
+				5844BF68265C311C00DB5A4B /* StopienInterakcji.swift in Sources */,
+				58A5A56426559BBA0018531B /* SettingsViewController.swift in Sources */,
 				58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */,
+				5844BF65265C2FF900DB5A4B /* BazaDanych.swift in Sources */,
 				58D5977E2653D8E2001F8126 /* CustomLabel.swift in Sources */,
 				58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */,
 				586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */,
@@ -369,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D994TULQW5;
 				INFOPLIST_FILE = "Praca dyplomowa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D994TULQW5;
 				INFOPLIST_FILE = "Praca dyplomowa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

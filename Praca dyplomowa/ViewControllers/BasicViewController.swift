@@ -9,21 +9,15 @@
 import Foundation
 import UIKit
 
-//MARK: Dark mode
+//MARK: Common base class for all View Controllers.
+//MARK: Handles dark mode settings
 
 class BaseViewController: UIViewController {
-   
-    @IBOutlet weak var DarkModeSwitchButton: UISwitch!
 
         override func viewDidLoad() {
             super.viewDidLoad()
             let isDarkOn = UserDefaults.standard.bool(forKey: "prefs_is_dark_mode_on") as? Bool ?? true
-                overrideUserInterfaceStyle = isDarkOn ? .dark : .light
-    }
-
-    @IBAction func DarkModeActionSwitchButton(_ sender: UISwitch) {
-        
-        UserDefaults.standard.set(DarkModeSwitchButton.isOn, forKey: "prefs_is_dark_mode_on")
-        overrideUserInterfaceStyle = DarkModeSwitchButton.isOn ? .dark : .light
+            overrideUserInterfaceStyle = isDarkOn ? .dark : .light
+    //JESL DARK MODE JEST WLACZONY TO PRZYCISK TEZ MUSI BYC WLACZONY !
     }
 }

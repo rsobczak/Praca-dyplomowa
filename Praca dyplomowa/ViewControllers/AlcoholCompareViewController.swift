@@ -1,18 +1,18 @@
 //
-//  CompareViewController.swift
+//  AlcoholCompareViewController.swift
 //  Praca dyplomowa
 //
-//  Created by Radoslaw Sobczak on 18/05/2021.
+//  Created by Radoslaw Sobczak on 01/06/2021.
 //  Copyright © 2021 Radoslaw Sobczak. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-//MARK:Compare View Controller beetwen drugs
-//MARK: Data are loaded from JSON file
+//MARK: Alcohol comapre View Controller
+//MARK: Handles interaction beetween a drug and alcohol
 
-class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     //wypelnianie danymi picker view
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -32,36 +32,23 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     
     func pickerView(_ pickerView: UIPickerView,
     didSelectRow row: Int, inComponent component: Int) {
-    
-        if pickerView == pickerViewDrug1 {
-            
-            updateLabelActiveSubstance(labelToUpdate: labelAciveSubst1, changedPicker: pickerViewDrug1)
-            
-        } else {
-            
-            updateLabelActiveSubstance(labelToUpdate: labelAciveSubst2, changedPicker: pickerViewDrug2)
-        }
-    }
-    
-    func updateLabelActiveSubstance (labelToUpdate: UILabel, changedPicker: UIPickerView) {
-        
-        labelToUpdate.text = bazaDanych.leki[changedPicker.selectedRow(inComponent: 0)].activeSubstance
-    }
 
-//Outlets
+    labelActiveSubst.text = bazaDanych.leki[row].activeSubstance
+        
+    }
     
-    @IBOutlet weak var pickerViewDrug1: UIPickerView!
-    @IBOutlet weak var pickerViewDrug2: UIPickerView!
-    @IBOutlet weak var labelAciveSubst1: CustomLabel!
-    @IBOutlet weak var labelAciveSubst2: CustomLabel!
-    @IBAction func buttonConform(_ sender: UIButton) {
+// Outlets
+    
+    @IBOutlet weak var pickerViewDrug: UIPickerView!
+    @IBOutlet weak var labelActiveSubst: CustomLabel!
+    @IBAction func buttonConfirmAlcohol(_ sender: Any) {
     }
     
     var bazaDanych:BazaDanych = BazaDanych(leki: [], interakcje: [])
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        	
+            
         let path = Bundle.main.path(forResource: "Leki", ofType: "JSON") //1.         wskazujemy ścieżke do JSON
         //print(path)
         
@@ -95,6 +82,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
             
         var emptyArrInteraction: [Interaction] = []
         for dictInteraction in arrInteractions {
+//Constants
             let substancja_1 = dictInteraction["substancja_1"]! as! String
             let substancja_2 = dictInteraction["substancja_2"]! as! String
             let stopienInterakcji = StopienInterakcji(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
@@ -119,47 +107,47 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         // Do any additional setup after loading the view.
         navigationItem.title = "Compare screen"
        
-        pickerViewDrug1.dataSource = self
-        pickerViewDrug2.dataSource = self
-        pickerViewDrug1.delegate = self
-        pickerViewDrug2.delegate = self
-        
-        updateLabelActiveSubstance(labelToUpdate: labelAciveSubst1, changedPicker: pickerViewDrug1)
-        updateLabelActiveSubstance(labelToUpdate: labelAciveSubst2, changedPicker: pickerViewDrug2)
+        pickerViewDrug.dataSource = self
+        pickerViewDrug.delegate = self
+        labelActiveSubst.text = bazaDanych.leki[pickerViewDrug.selectedRow(inComponent: 0)].activeSubstance
     }
     
     // akcja alert na klikniecie w button "Confirm"
     
-    @IBAction func buttonActionAlert(_ sender: UIButton) {
-    
+    @IBAction func buttonConfrimAlcoholAndDrug(_ sender: UIButton) {
+        
         createAlert()
     }
     
+    
     func createAlert() {
     
-        let selectedRow1: Int = pickerViewDrug1.selectedRow(inComponent: 0)
-        let selecetedRow2: Int = pickerViewDrug2.selectedRow(inComponent: 0)
-        let activSubstance1 = bazaDanych.leki[selectedRow1].activeSubstance
-        let acitvSubstance2 = bazaDanych.leki[selecetedRow2].activeSubstance
+
+//Constants
+        
+        let selectedRow: Int = pickerViewDrug.selectedRow(inComponent: 0)
+        let activSubstance1 = bazaDanych.leki[selectedRow].activeSubstance
+        let acitvSubstance2: String = "Alcohol"
         let optionalInterakcja = bazaDanych.znajdzInteakcje(activSubstance1, substancja2: acitvSubstance2)
         
-        var tytul: String = "TEST"
+//Variables
+        var tytul: String
         var wiadomosc:String =
-            "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2)"
+            "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem"
         
         if let interakcje = optionalInterakcja {
             tytul = "Uwaga"
-            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2) \n\nStopien: \(interakcje.stopienInterakcji )"
+            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem \n\nStopien: \(interakcje.stopienInterakcji )"
         } else {
             tytul = "Nie znaleziono"
-            wiadomosc = "nie znaleziono interakcji pomiedzy lekami!"
+            wiadomosc = "\nNie łącz ŻADNYCH leków z alkoholem !!!"
         }
         
+// Constant
         let alert = UIAlertController(title: tytul, message: wiadomosc, preferredStyle: UIAlertController.Style.alert)
         
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default , handler: { (action) in alert.dismiss(animated: true, completion: nil)
 
-//jakie ma zawierac w sobie ten alert mozliwe akcje
         }))
         
         present(alert, animated: true, completion: nil)
@@ -167,3 +155,4 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     }
 
 }
+

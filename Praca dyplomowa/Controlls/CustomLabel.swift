@@ -14,7 +14,7 @@ import UIKit
 class CustomLabel: UILabel {
     override func didMoveToWindow() {
         
-        self.text = "TEST"
+        //self.text = "TEST" //aby na każdym Labelu nie było napisu TEST
         self.textColor = UIColor.systemRed
         self.layer.shadowRadius = 4
         self.layer.shadowOpacity = 0.5
