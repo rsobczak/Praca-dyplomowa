@@ -2,16 +2,14 @@
 //  CustomNormalButton.swift
 //  Praca dyplomowa
 //
-//  Created by Radoslaw Sobczak on 14/05/2021.
+//  Created by Radoslaw Sobczak on 18/05/2021.
 //  Copyright © 2021 Radoslaw Sobczak. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-// class that creates a button (big button) with attributes (inherited from UIButton)
-
-// MARK: class Button
+//MARK: Class that creates custom big button
 
 class CustomNormalButton : UIButton {
     override func didMoveToWindow() {
@@ -25,7 +23,7 @@ class CustomNormalButton : UIButton {
         self.layer.shadowOffset =     CGSize(width: 0, height: 0) // przycisku cien
         self.titleLabel?.textAlignment = .center
         // wielkosc buttona
-        self.frame.size = CGSize(width: 100, height: 50)
+        self.frame.size = CGSize(width: 120, height: 50)
         //czcionka wielkość
         self.titleLabel?.font = self.titleLabel?.font.withSize(15)
     }

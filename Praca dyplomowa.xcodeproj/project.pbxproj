@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5844BF5F265C2FD300DB5A4B /* Lek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF5E265C2FD300DB5A4B /* Lek.swift */; };
+		5844BF62265C2FE100DB5A4B /* Interakcja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF61265C2FE100DB5A4B /* Interakcja.swift */; };
+		5844BF65265C2FF900DB5A4B /* BazaDanych.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF64265C2FF900DB5A4B /* BazaDanych.swift */; };
+		5844BF68265C311C00DB5A4B /* StopienInterakcji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */; };
+		5859ABE72666CD6500BF924D /* AlcoholCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */; };
 		586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BF925D88B7B00D42F79 /* AppDelegate.swift */; };
 		586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */; };
 		586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */; };
 		586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */; };
 		586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0225D88B7D00D42F79 /* Assets.xcassets */; };
 		586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */; };
-		58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B6EB8825E57569009145E1 /* OnboardingView.storyboard */; };
+		58A5A56426559BBA0018531B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A5A56326559BBA0018531B /* SettingsViewController.swift */; };
+		58A5A5672655A4F40018531B /* Leki.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 58A5A5662655A4F40018531B /* Leki.JSON */; };
 		58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */; };
-		58D57441264F0A6200726550 /* CustomNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D57440264F0A6200726550 /* CustomNormalButton.swift */; };
-		58D57444264F0AAF00726550 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D57443264F0AAF00726550 /* CustomLabel.swift */; };
-		58D57447264F0BEC00726550 /* CustomSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D57446264F0BEC00726550 /* CustomSmallButton.swift */; };
-		58D5744A264F0C5600726550 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D57449264F0C5600726550 /* CustomTextView.swift */; };
-		58D5744D264F0CB600726550 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5744C264F0CB600726550 /* CustomImageView.swift */; };
-		58D57450264F0EA300726550 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5744F264F0EA300726550 /* BasicViewController.swift */; };
-		58E9E1C82641BA6B00FA6D69 /* ChooseInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */; };
-		58E9E1CB2641BAAB00FA6D69 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */; };
-		58E9E1CE2641BAF900FA6D69 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */; };
-		58E9E1D12641BB2800FA6D69 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */; };
+		58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597772653D883001F8126 /* CustomNormalButton.swift */; };
+		58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */; };
+		58D5977E2653D8E2001F8126 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5977D2653D8E2001F8126 /* CustomLabel.swift */; };
+		58D597812653D902001F8126 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597802653D902001F8126 /* CustomTextView.swift */; };
+		58D597842653D92B001F8126 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597832653D92B001F8126 /* CustomImageView.swift */; };
+		58D597872653D97E001F8126 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597862653D97E001F8126 /* BasicViewController.swift */; };
+		58D5978A2653D9B3001F8126 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597892653D9B3001F8126 /* CompareViewController.swift */; };
+		58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5978E2653D9CF001F8126 /* AboutViewController.swift */; };
+		58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597922653D9F7001F8126 /* AuthorViewController.swift */; };
+		58D597962653DA24001F8126 /* ChooseInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5844BF5E265C2FD300DB5A4B /* Lek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lek.swift; sourceTree = "<group>"; };
+		5844BF61265C2FE100DB5A4B /* Interakcja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interakcja.swift; sourceTree = "<group>"; };
+		5844BF64265C2FF900DB5A4B /* BazaDanych.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazaDanych.swift; sourceTree = "<group>"; };
+		5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopienInterakcji.swift; sourceTree = "<group>"; };
+		5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholCompareViewController.swift; sourceTree = "<group>"; };
 		586F9BF625D88B7B00D42F79 /* Praca dyplomowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praca dyplomowa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F9BF925D88B7B00D42F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,18 +47,19 @@
 		586F9C0225D88B7D00D42F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586F9C0525D88B7D00D42F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586F9C0725D88B7D00D42F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58B6EB8825E57569009145E1 /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
+		58A5A56326559BBA0018531B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		58A5A5662655A4F40018531B /* Leki.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Leki.JSON; sourceTree = "<group>"; };
 		58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		58D57440264F0A6200726550 /* CustomNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNormalButton.swift; sourceTree = "<group>"; };
-		58D57443264F0AAF00726550 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
-		58D57446264F0BEC00726550 /* CustomSmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSmallButton.swift; sourceTree = "<group>"; };
-		58D57449264F0C5600726550 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
-		58D5744C264F0CB600726550 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
-		58D5744F264F0EA300726550 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
-		58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInteractionViewController.swift; sourceTree = "<group>"; };
-		58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
-		58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		58D597772653D883001F8126 /* CustomNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNormalButton.swift; sourceTree = "<group>"; };
+		58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSmallButton.swift; sourceTree = "<group>"; };
+		58D5977D2653D8E2001F8126 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		58D597802653D902001F8126 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		58D597832653D92B001F8126 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		58D597862653D97E001F8126 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		58D597892653D9B3001F8126 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
+		58D5978E2653D9CF001F8126 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		58D597922653D9F7001F8126 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInteractionViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +92,7 @@
 		586F9BF825D88B7B00D42F79 /* Praca dyplomowa */ = {
 			isa = PBXGroup;
 			children = (
-				58D5743F264F0A2A00726550 /* Controlls */,
+				58D597762653D852001F8126 /* Controlls */,
 				58C347FE25E630B1009BF21C /* Model */,
 				58C347FF25E630BA009BF21C /* Controler */,
 				58B6EB8B25E575C9009145E1 /* ViewControllers */,
@@ -89,6 +101,7 @@
 				586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */,
 				586F9C0225D88B7D00D42F79 /* Assets.xcassets */,
 				586F9C0725D88B7D00D42F79 /* Info.plist */,
+				58A5A5662655A4F40018531B /* Leki.JSON */,
 			);
 			path = "Praca dyplomowa";
 			sourceTree = "<group>";
@@ -96,47 +109,24 @@
 		58B6EB8425E57487009145E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				58B6EB8725E57538009145E1 /* Onboarding */,
-				58B6EB8625E574E8009145E1 /* Home */,
-				58B6EB8525E574A2009145E1 /* LaunchScreen */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		58B6EB8525E574A2009145E1 /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
+				586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */,
 				586F9C0425D88B7D00D42F79 /* LaunchScreen.storyboard */,
 			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
-		58B6EB8625E574E8009145E1 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				586F9BFF25D88B7B00D42F79 /* HomeView.storyboard */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		58B6EB8725E57538009145E1 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				58B6EB8825E57569009145E1 /* OnboardingView.storyboard */,
-			);
-			path = Onboarding;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		58B6EB8B25E575C9009145E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				58D5744F264F0EA300726550 /* BasicViewController.swift */,
+				58D597862653D97E001F8126 /* BasicViewController.swift */,
 				586F9BFD25D88B7B00D42F79 /* HomeViewController.swift */,
 				58B6EB8E25E5766A009145E1 /* OnboardingViewController.swift */,
-				58E9E1CA2641BAAB00FA6D69 /* CompareViewController.swift */,
-				58E9E1CD2641BAF900FA6D69 /* AboutViewController.swift */,
-				58E9E1D02641BB2800FA6D69 /* AuthorViewController.swift */,
-				58E9E1C72641BA6B00FA6D69 /* ChooseInteractionViewController.swift */,
+				58D597952653DA24001F8126 /* ChooseInteractionViewController.swift */,
+				58D597892653D9B3001F8126 /* CompareViewController.swift */,
+				58D5978E2653D9CF001F8126 /* AboutViewController.swift */,
+				58D597922653D9F7001F8126 /* AuthorViewController.swift */,
+				58A5A56326559BBA0018531B /* SettingsViewController.swift */,
+				5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +134,10 @@
 		58C347FE25E630B1009BF21C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5844BF5E265C2FD300DB5A4B /* Lek.swift */,
+				5844BF61265C2FE100DB5A4B /* Interakcja.swift */,
+				5844BF64265C2FF900DB5A4B /* BazaDanych.swift */,
+				5844BF67265C311C00DB5A4B /* StopienInterakcji.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,14 +149,14 @@
 			path = Controler;
 			sourceTree = "<group>";
 		};
-		58D5743F264F0A2A00726550 /* Controlls */ = {
+		58D597762653D852001F8126 /* Controlls */ = {
 			isa = PBXGroup;
 			children = (
-				58D57440264F0A6200726550 /* CustomNormalButton.swift */,
-				58D57446264F0BEC00726550 /* CustomSmallButton.swift */,
-				58D57443264F0AAF00726550 /* CustomLabel.swift */,
-				58D57449264F0C5600726550 /* CustomTextView.swift */,
-				58D5744C264F0CB600726550 /* CustomImageView.swift */,
+				58D597772653D883001F8126 /* CustomNormalButton.swift */,
+				58D5977A2653D8C0001F8126 /* CustomSmallButton.swift */,
+				58D5977D2653D8E2001F8126 /* CustomLabel.swift */,
+				58D597802653D902001F8126 /* CustomTextView.swift */,
+				58D597832653D92B001F8126 /* CustomImageView.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -227,7 +221,7 @@
 			files = (
 				586F9C0625D88B7D00D42F79 /* LaunchScreen.storyboard in Resources */,
 				586F9C0325D88B7D00D42F79 /* Assets.xcassets in Resources */,
-				58B6EB8925E57569009145E1 /* OnboardingView.storyboard in Resources */,
+				58A5A5672655A4F40018531B /* Leki.JSON in Resources */,
 				586F9C0125D88B7B00D42F79 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,20 +233,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E9E1CB2641BAAB00FA6D69 /* CompareViewController.swift in Sources */,
-				58D57444264F0AAF00726550 /* CustomLabel.swift in Sources */,
-				58D5744A264F0C5600726550 /* CustomTextView.swift in Sources */,
+				5844BF5F265C2FD300DB5A4B /* Lek.swift in Sources */,
+				5859ABE72666CD6500BF924D /* AlcoholCompareViewController.swift in Sources */,
+				58D597962653DA24001F8126 /* ChooseInteractionViewController.swift in Sources */,
+				5844BF62265C2FE100DB5A4B /* Interakcja.swift in Sources */,
 				586F9BFE25D88B7B00D42F79 /* HomeViewController.swift in Sources */,
-				58E9E1C82641BA6B00FA6D69 /* ChooseInteractionViewController.swift in Sources */,
-				58E9E1CE2641BAF900FA6D69 /* AboutViewController.swift in Sources */,
+				58D597872653D97E001F8126 /* BasicViewController.swift in Sources */,
+				58D597842653D92B001F8126 /* CustomImageView.swift in Sources */,
 				586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */,
+				58D597812653D902001F8126 /* CustomTextView.swift in Sources */,
+				58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */,
+				58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */,
+				5844BF68265C311C00DB5A4B /* StopienInterakcji.swift in Sources */,
+				58A5A56426559BBA0018531B /* SettingsViewController.swift in Sources */,
+				58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */,
+				5844BF65265C2FF900DB5A4B /* BazaDanych.swift in Sources */,
+				58D5977E2653D8E2001F8126 /* CustomLabel.swift in Sources */,
+				58D597782653D883001F8126 /* CustomNormalButton.swift in Sources */,
 				586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */,
-				58D57441264F0A6200726550 /* CustomNormalButton.swift in Sources */,
 				58B6EB8F25E5766A009145E1 /* OnboardingViewController.swift in Sources */,
-				58E9E1D12641BB2800FA6D69 /* AuthorViewController.swift in Sources */,
-				58D57447264F0BEC00726550 /* CustomSmallButton.swift in Sources */,
-				58D5744D264F0CB600726550 /* CustomImageView.swift in Sources */,
-				58D57450264F0EA300726550 /* BasicViewController.swift in Sources */,
+				58D5978A2653D9B3001F8126 /* CompareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D994TULQW5;
 				INFOPLIST_FILE = "Praca dyplomowa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D994TULQW5;
 				INFOPLIST_FILE = "Praca dyplomowa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

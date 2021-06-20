@@ -2,16 +2,14 @@
 //  CustomSmallButton.swift
 //  Praca dyplomowa
 //
-//  Created by Radoslaw Sobczak on 14/05/2021.
+//  Created by Radoslaw Sobczak on 18/05/2021.
 //  Copyright © 2021 Radoslaw Sobczak. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-// class that creates a button (small button) with attributes (inherited from UIButton)
-
-// MARK: class Button
+//MARK: Class that creates custom small button
 
 class CustomSmallButton: UIButton{
     override func didMoveToWindow() {
@@ -28,4 +26,4 @@ class CustomSmallButton: UIButton{
         self.titleLabel?.font = self.titleLabel?.font.withSize(12)
        
     }
-    }
+}

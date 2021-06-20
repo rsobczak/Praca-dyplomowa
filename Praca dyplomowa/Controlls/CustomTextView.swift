@@ -2,24 +2,23 @@
 //  CustomTextView.swift
 //  Praca dyplomowa
 //
-//  Created by Radoslaw Sobczak on 14/05/2021.
+//  Created by Radoslaw Sobczak on 18/05/2021.
 //  Copyright © 2021 Radoslaw Sobczak. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-// class that creates a text view field with attributes (inherited from UIView)
 
-// MARK: class Text View
+//MARK: Class that creates custom text view
 
 class CustomTextView : UITextView {
     override func didMoveToWindow() {
         
         self.textAlignment = .center
         self.backgroundColor = .systemPink
-        self.layer.borderWidth = 1
+        self.layer.borderWidth = 3
         self.layer.borderColor = UIColor.blue.cgColor
-        
+        self.layer.cornerRadius = 15	
         }
 }

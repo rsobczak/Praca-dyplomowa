@@ -1,5 +1,5 @@
 //
-//  ChooseInteractionViewController.swift
+//  SettingViewController.swift
 //  Praca dyplomowa
 //
 //  Created by Radoslaw Sobczak on 18/05/2021.
@@ -9,13 +9,11 @@
 import Foundation
 import UIKit
 
-//MARK: Choose interaction View Controller
-
 class ChooseInteractionViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        navigationItem.title = "Interactions"
+        navigationItem.title = "Settings"
     }
 }
