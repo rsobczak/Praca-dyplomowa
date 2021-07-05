@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "and"; ObjectID = "5ua-kb-llc"; */
+"5ua-kb-llc.text" = "and";
+
+/* Class = "UIButton"; normalTitle = "Alcohol"; ObjectID = "8Ye-k7-OPz"; */
+"8Ye-k7-OPz.normalTitle" = "Alcohol";
+
+/* Class = "UITextView"; text = "My name is Radosław Sobczak and I am a student at Opole University of Technology, majoring in Computer Science. \nAdditionally, I am a novice iOS programmer. \nThis application is my engineering thesis. "; ObjectID = "DF1-g1-KNo"; */
+"DF1-g1-KNo.text" = "My name is Radosław Sobczak and I am a student at Opole University of Technology, majoring in Computer Science. \nAdditionally, I am a novice iOS programmer. \nThis application is my engineering thesis. ";
+
+/* Class = "UILabel"; text = "Choose interaction"; ObjectID = "DXl-PW-Sdh"; */
+"DXl-PW-Sdh.text" = "Choose interaction";
+
+/* Class = "UILabel"; text = "Dark mode"; ObjectID = "F1h-kt-EhB"; */
+"F1h-kt-EhB.text" = "Dark mode";
+
+/* Class = "UIButton"; normalTitle = "Get started"; ObjectID = "FL2-M3-7T0"; */
+"FL2-M3-7T0.normalTitle" = "Get started";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "Ggy-9L-TZJ"; */
+"Ggy-9L-TZJ.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Polish"; ObjectID = "LXt-hL-XTk"; */
+"LXt-hL-XTk.normalTitle" = "Polish";
+
+/* Class = "UILabel"; text = "Wybierz leki"; ObjectID = "Oj2-0i-TNt"; */
+"Oj2-0i-TNt.text" = "Wybierz leki";
+
+/* Class = "UILabel"; text = "Active subst:"; ObjectID = "R0p-C0-Ma0"; */
+"R0p-C0-Ma0.text" = "Active subst:";
+
+/* Class = "UILabel"; text = "Active subst:"; ObjectID = "Rmc-6o-Gxt"; */
+"Rmc-6o-Gxt.text" = "Active subst:";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "Rvw-iO-p8Y"; */
+"Rvw-iO-p8Y.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Wybierz lek"; ObjectID = "SGS-tW-L8S"; */
+"SGS-tW-L8S.text" = "Wybierz lek";
+
+/* Class = "UILabel"; text = "Dark mode"; ObjectID = "YZc-L8-gDJ"; */
+"YZc-L8-gDJ.text" = "Dark mode";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "cQF-mC-x0e"; */
+"cQF-mC-x0e.normalTitle" = "Close";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "dti-XV-XJx"; */
+"dti-XV-XJx.normalTitle" = "Close";
+
+/* Class = "UITextView"; text = "The application allows you to check if there are interactions of active substances in medicines.    It also allows you to check for alcohol and drug interactions. "; ObjectID = "g6T-FB-c3t"; */
+"g6T-FB-c3t.text" = "The application allows you to check if there are interactions of active substances in medicines.    It also allows you to check for alcohol and drug interactions. ";
+
+/* Class = "UIButton"; normalTitle = "About the Author"; ObjectID = "h9X-Zh-NA5"; */
+"h9X-Zh-NA5.normalTitle" = "About the Author";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "m3a-4h-lSI"; */
+"m3a-4h-lSI.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "German"; ObjectID = "mOl-HO-AJD"; */
+"mOl-HO-AJD.normalTitle" = "German";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "ndp-fv-iSe"; */
+"ndp-fv-iSe.normalTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "qCg-AY-HLP"; */
+"qCg-AY-HLP.text" = "Language";
+
+/* Class = "UILabel"; text = "Active subst: "; ObjectID = "unl-zy-6z9"; */
+"unl-zy-6z9.text" = "Active subst: ";
+
+/* Class = "UILabel"; text = "Alcohol"; ObjectID = "vwA-2J-QSa"; */
+"vwA-2J-QSa.text" = "Alcohol";
+
+/* Class = "UILabel"; text = "Welcome "; ObjectID = "ywU-Kj-bTh"; */
+"ywU-Kj-bTh.text" = "Welcome ";
+
+/* Class = "UIButton"; normalTitle = "Drugs"; ObjectID = "zL4-FF-0mF"; */
+"zL4-FF-0mF.normalTitle" = "Drugs";
