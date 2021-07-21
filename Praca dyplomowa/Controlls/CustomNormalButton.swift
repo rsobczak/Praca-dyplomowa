@@ -23,7 +23,7 @@ class CustomNormalButton : UIButton {
         self.layer.shadowOffset =     CGSize(width: 0, height: 0) // przycisku cien
         self.titleLabel?.textAlignment = .center
         // wielkosc buttona
-        self.frame.size = CGSize(width: 100, height: 50)
+        self.frame.size = CGSize(width: 120, height: 50)
         //czcionka wielkość
         self.titleLabel?.font = self.titleLabel?.font.withSize(15)
     }
