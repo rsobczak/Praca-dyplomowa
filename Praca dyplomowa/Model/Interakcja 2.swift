@@ -1,3 +1,5 @@
+// Is this file needed? It seems to be a duplicate of Interakcja.swift
+
 //
 //  Interakcja.swift
 //  Praca dyplomowa

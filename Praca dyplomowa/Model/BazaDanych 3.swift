@@ -1,3 +1,5 @@
+// Is this file needed? It seems to be a duplicate of BazaDanych.swift
+
 //
 //  BazaDanych.swift
 //  Praca dyplomowa
@@ -20,7 +22,7 @@ class BazaDanych {
         self.interakcje = interakcje
     }
     
-    func znajdzInteakcje(_ substancja1: String, substancja2: String) -> Interaction? { // typo in 'znajdzInteakcje'
+    func znajdzInteakcje(_ substancja1: String, substancja2: String) -> Interaction? {
         self.interakcje.first(where:  {$0.substancja_1 == substancja1 && $0.substancja_2 == substancja2 || $0.substancja_2 == substancja1 && $0.substancja_1 == substancja2}) // dwoch substancje znajduja inteakcje jesli sitnieja.
     }
 }

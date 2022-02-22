@@ -1,3 +1,5 @@
+// Is this file needed? It seems to be a duplicate of Lek.swift
+
 //
 //  Lek.swift
 //  Praca dyplomowa
