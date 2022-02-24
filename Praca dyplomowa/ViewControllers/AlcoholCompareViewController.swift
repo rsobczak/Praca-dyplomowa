@@ -128,7 +128,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
         let selectedRow: Int = pickerViewDrug.selectedRow(inComponent: 0)
         let activSubstance1 = bazaDanych.leki[selectedRow].activeSubstance
         let acitvSubstance2: String = "Alcohol"
-        let optionalInterakcja = bazaDanych.znajdzInteakcje(activSubstance1, substancja2: acitvSubstance2)
+        let optionalInterakcja = bazaDanych.znajdzInterakcje(activSubstance1, substancja2: acitvSubstance2)
         
 //Variables
         var tytul: String
