@@ -11,7 +11,8 @@ import Foundation
 
 //MARK: Data base with all informations
 
-class BazaDanych {
+// Rename the type, its members, and the file into English
+class BazaDanych { 
     let leki: [Drug]
     let interakcje: [Interaction]
 

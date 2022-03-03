@@ -10,6 +10,7 @@ import Foundation
 
 //MARK: Information about a interactions
 
+// Rename the type members and file into English
 class Interaction {
     let substancja_1: String
     let substancja_2: String

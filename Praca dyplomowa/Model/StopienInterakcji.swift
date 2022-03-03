@@ -10,6 +10,7 @@ import Foundation
 
 //MARK: Enumeriation about inteaction severity
 
+// Rename the type its members, and file into English
 enum StopienInterakcji : String { // zmienic nazwe na angielską ale stosująć refaktoryzacje kodu
     case bardzo_powazny = "bardzo powazny"
     case istotny = "istotna interakcja"
