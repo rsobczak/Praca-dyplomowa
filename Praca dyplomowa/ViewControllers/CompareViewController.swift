@@ -57,7 +57,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     @IBAction func buttonConform(_ sender: UIButton) {
     }
     
-    var bazaDanych:BazaDanych = BazaDanych(leki: [], interakcje: [])
+    var bazaDanych:DataBase = DataBase(leki: [], interakcje: [])
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -105,7 +105,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
             
         }
             
-         bazaDanych = BazaDanych(leki: emptyArrDrugs, interakcje: emptyArrInteraction)
+         bazaDanych = DataBase(leki: emptyArrDrugs, interakcje: emptyArrInteraction)
             
             } catch {
                 

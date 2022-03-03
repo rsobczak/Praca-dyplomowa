@@ -44,7 +44,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
     @IBAction func buttonConfirmAlcohol(_ sender: Any) {
     }
     
-    var bazaDanych:BazaDanych = BazaDanych(leki: [], interakcje: [])
+    var bazaDanych:DataBase = DataBase(leki: [], interakcje: [])
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -93,7 +93,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
             
         }
             
-         bazaDanych = BazaDanych(leki: emptyArrDrugs, interakcje: emptyArrInteraction)
+         bazaDanych = DataBase(leki: emptyArrDrugs, interakcje: emptyArrInteraction)
             
             } catch {
                 
