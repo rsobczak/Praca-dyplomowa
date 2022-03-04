@@ -18,6 +18,5 @@ class BaseViewController: UIViewController {
             super.viewDidLoad()
             let isDarkOn = UserDefaults.standard.bool(forKey: "prefs_is_dark_mode_on") as? Bool ?? true
             overrideUserInterfaceStyle = isDarkOn ? .dark : .light
-    //JESL DARK MODE JEST WLACZONY TO PRZYCISK TEZ MUSI BYC WLACZONY !
     }
 }

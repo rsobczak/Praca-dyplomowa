@@ -19,7 +19,7 @@ class HomeViewController: BaseViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         navigationItem.title = "Welcome"
-        laberUserName.text = "Welcome \(UIDevice.current.name)" //"Witaj \(NSUserName())"
+        laberUserName.text = "Welcome \(UIDevice.current.name)"
     
         let alertForUser = UIAlertController(title: "REMEMBER !!!", message: "Don't play with your medications. \n Your life and health are at stake.", preferredStyle: .alert)
         alertForUser.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

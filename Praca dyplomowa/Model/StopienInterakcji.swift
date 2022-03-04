@@ -12,8 +12,8 @@ import Foundation
 
 // Rename the type its members, and file into English
 enum StopienInterakcji : String { // zmienic nazwe na angielską ale stosująć refaktoryzacje kodu
-    case bardzo_powazny = "bardzo powazny"
-    case istotny = "istotna interakcja"
-    case nieistotny = "nieistotny"
-    case brak_danych = "brak danych"
+    case verySerious = "bardzo powazny"
+    case serious = "istotna interakcja"
+    case notSerious = "nieistotny"
+    case lackOfData = "brak danych"
 }
