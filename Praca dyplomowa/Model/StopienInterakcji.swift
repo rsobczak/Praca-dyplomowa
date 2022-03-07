@@ -15,5 +15,5 @@ enum StopienInterakcji : String { // zmienic nazwe na angielską ale stosująć 
     case verySerious = "bardzo powazny"
     case serious = "istotna interakcja"
     case notSerious = "nieistotny"
-    case lackOfData = "brak danych"
+    case noData = "brak danych"
 }
