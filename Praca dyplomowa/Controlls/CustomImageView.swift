@@ -19,6 +19,5 @@ class CustomImageView : UIImageView {
         self.layer.borderWidth = 3
         self.layer.borderColor = UIColor.systemBlue.cgColor
         self.layer.cornerRadius = 20
-        
     }
 }

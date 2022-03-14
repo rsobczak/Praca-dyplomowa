@@ -25,5 +25,4 @@ class CustomNormalButton : UIButton {
         self.frame.size = CGSize(width: 120, height: 50)
         self.titleLabel?.font = self.titleLabel?.font.withSize(15)
     }
-    
 }

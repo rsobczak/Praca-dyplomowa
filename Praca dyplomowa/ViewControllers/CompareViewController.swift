@@ -22,12 +22,12 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
-        return bazaDanych.leki.count
+        return bazaDanych.drugs.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
-        return bazaDanych.leki[row].name
+        return bazaDanych.drugs[row].name
     }
     
     func pickerView(_ pickerView: UIPickerView,
@@ -45,7 +45,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     
     func updateLabelActiveSubstance (labelToUpdate: UILabel, changedPicker: UIPickerView) {
         
-        labelToUpdate.text = bazaDanych.leki[changedPicker.selectedRow(inComponent: 0)].activeSubstance
+        labelToUpdate.text = bazaDanych.drugs[changedPicker.selectedRow(inComponent: 0)].activeSubstance
     }
 
 //Outlets
@@ -97,9 +97,9 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         for dictInteraction in arrInteractions {
             let substancja_1 = dictInteraction["substancja_1"]! as! String
             let substancja_2 = dictInteraction["substancja_2"]! as! String
-            let stopienInterakcji = StopienInterakcji(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
+            let stopienInterakcji = levelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
             let opis = dictInteraction["opis"]! as! String
-            let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, opis: opis)
+            let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, description: opis)
                 
             emptyArrInteraction.append(interaction)
             
@@ -139,9 +139,9 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     
         let selectedRow1: Int = pickerViewDrug1.selectedRow(inComponent: 0)
         let selecetedRow2: Int = pickerViewDrug2.selectedRow(inComponent: 0)
-        let activSubstance1 = bazaDanych.leki[selectedRow1].activeSubstance
-        let acitvSubstance2 = bazaDanych.leki[selecetedRow2].activeSubstance
-        let optionalInterakcja = bazaDanych.znajdzInterakcje(activSubstance1, substancja2: acitvSubstance2)
+        let activSubstance1 = bazaDanych.drugs[selectedRow1].activeSubstance
+        let acitvSubstance2 = bazaDanych.drugs[selecetedRow2].activeSubstance
+        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, substancja2: acitvSubstance2)
         
         var tytul: String = "TEST"
         var wiadomosc:String =
@@ -149,7 +149,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         
         if let interakcje = optionalInterakcja {
             tytul = "Uwaga"
-            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2) \n\nStopien: \(interakcje.stopienInterakcji )"
+            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2) \n\nStopien: \(interakcje.levelOfInteaction )"
         } else {
             tytul = "Nie znaleziono"
             wiadomosc = "nie znaleziono interakcji pomiedzy lekami!"

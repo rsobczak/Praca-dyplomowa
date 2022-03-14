@@ -13,15 +13,15 @@ import Foundation
 // Rename the type members and file into English
 class Interaction {
     let firstActiveSubstance: String
-    let substancja_2: String
-    let stopienInterakcji: StopienInterakcji
-    let opis: String
+    let secondActiveSubstance: String
+    let levelOfInteaction: levelOfInteraction
+    let description: String
    
     
-    init(substancja_1: String, substancja_2: String, stopienInterakcji: StopienInterakcji, opis: String) {
+    init(substancja_1: String, substancja_2: String, stopienInterakcji: levelOfInteraction, description: String) {
         self.firstActiveSubstance = substancja_1
-        self.substancja_2 = substancja_2
-        self.stopienInterakcji = stopienInterakcji
-        self.opis = opis
+        self.secondActiveSubstance = substancja_2
+        self.levelOfInteaction = stopienInterakcji
+        self.description = description
     }
 }

@@ -21,5 +21,4 @@ class CustomLabel: UILabel {
         self.layer.shadowColor = UIColor.systemYellow.cgColor
         self.textAlignment = .center
     }
-
 }

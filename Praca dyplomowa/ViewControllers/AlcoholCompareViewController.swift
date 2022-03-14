@@ -22,18 +22,18 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
-        return bazaDanych.leki.count
+        return bazaDanych.drugs.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
-        return bazaDanych.leki[row].name
+        return bazaDanych.drugs[row].name
     }
     
     func pickerView(_ pickerView: UIPickerView,
     didSelectRow row: Int, inComponent component: Int) {
 
-    labelActiveSubst.text = bazaDanych.leki[row].activeSubstance
+    labelActiveSubst.text = bazaDanych.drugs[row].activeSubstance
         
     }
     
@@ -85,9 +85,9 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
 //Constants
             let substancja_1 = dictInteraction["substancja_1"]! as! String
             let substancja_2 = dictInteraction["substancja_2"]! as! String
-            let stopienInterakcji = StopienInterakcji(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
+            let stopienInterakcji = levelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
             let opis = dictInteraction["opis"]! as! String
-            let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, opis: opis)
+            let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, description: opis)
                 
             emptyArrInteraction.append(interaction)
             
@@ -109,7 +109,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
        
         pickerViewDrug.dataSource = self
         pickerViewDrug.delegate = self
-        labelActiveSubst.text = bazaDanych.leki[pickerViewDrug.selectedRow(inComponent: 0)].activeSubstance
+        labelActiveSubst.text = bazaDanych.drugs[pickerViewDrug.selectedRow(inComponent: 0)].activeSubstance
     }
     
     // akcja alert na klikniecie w button "Confirm"
@@ -126,9 +126,9 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
 //Constants
         
         let selectedRow: Int = pickerViewDrug.selectedRow(inComponent: 0)
-        let activSubstance1 = bazaDanych.leki[selectedRow].activeSubstance
+        let activSubstance1 = bazaDanych.drugs[selectedRow].activeSubstance
         let acitvSubstance2: String = "Alcohol"
-        let optionalInterakcja = bazaDanych.znajdzInterakcje(activSubstance1, substancja2: acitvSubstance2)
+        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, substancja2: acitvSubstance2)
         
 //Variables
         var tytul: String
@@ -137,7 +137,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
         
         if let interakcje = optionalInterakcja {
             tytul = "Uwaga"
-            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem \n\nStopien: \(interakcje.stopienInterakcji )"
+            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem \n\nStopien: \(interakcje.levelOfInteaction )"
         } else {
             tytul = "Nie znaleziono"
             wiadomosc = "\nNie łącz ŻADNYCH leków z alkoholem !!!"

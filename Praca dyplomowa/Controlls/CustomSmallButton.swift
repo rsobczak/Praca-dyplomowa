@@ -24,6 +24,5 @@ class CustomSmallButton: UIButton{
         self.layer.cornerRadius = self.frame.height / 2
         self.frame.size = CGSize(width: 75, height: 40)
         self.titleLabel?.font = self.titleLabel?.font.withSize(12)
-       
     }
 }
