@@ -21,7 +21,7 @@ class DataBase {
         self.inteactions = interakcje
     }
     
-    func findInteaction(_ substancja1: String, substancja2: String) -> Interaction? {
-        self.inteactions.first(where:  {$0.firstActiveSubstance == substancja1 && $0.secondActiveSubstance == substancja2 || $0.secondActiveSubstance == substancja1 && $0.firstActiveSubstance == substancja2}) // dwoch substancje znajduja inteakcje jesli sitnieja.
+    func findInteaction(_ substance_1: String, _ substance_2: String) -> Interaction? {
+        self.inteactions.first(where:  {$0.firstActiveSubstance == substance_1 && $0.secondActiveSubstance == substance_2 || $0.secondActiveSubstance == substance_1 && $0.firstActiveSubstance == substance_2}) // dwoch substancje znajduja inteakcje jesli sitnieja.
     }
 }

@@ -16,17 +16,14 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     
     //wypelnianie danymi picker view
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        
         return 1
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        
         return bazaDanych.drugs.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
         return bazaDanych.drugs[row].name
     }
     
@@ -141,7 +138,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         let selecetedRow2: Int = pickerViewDrug2.selectedRow(inComponent: 0)
         let activSubstance1 = bazaDanych.drugs[selectedRow1].activeSubstance
         let acitvSubstance2 = bazaDanych.drugs[selecetedRow2].activeSubstance
-        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, substancja2: acitvSubstance2)
+        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, acitvSubstance2)
         
         var tytul: String = "TEST"
         var wiadomosc:String =
