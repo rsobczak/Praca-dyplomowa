@@ -14,14 +14,14 @@ import Foundation
 class Interaction {
     let firstActiveSubstance: String
     let secondActiveSubstance: String
-    let levelOfInteaction: levelOfInteraction
+    let levelOfInteraction: LevelOfInteraction
     let description: String
    
     
-    init(substancja_1: String, substancja_2: String, stopienInterakcji: levelOfInteraction, description: String) {
+    init(substancja_1: String, substancja_2: String, stopienInterakcji: LevelOfInteraction, description: String) {
         self.firstActiveSubstance = substancja_1
         self.secondActiveSubstance = substancja_2
-        self.levelOfInteaction = stopienInterakcji
+        self.levelOfInteraction = stopienInterakcji
         self.description = description
     }
 }

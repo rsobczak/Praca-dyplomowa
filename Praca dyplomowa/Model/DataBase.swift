@@ -14,14 +14,14 @@ import Foundation
 // Rename the type, its members, and the file into English
 class DataBase { 
     let drugs: [Drug]
-    let inteactions: [Interaction]
+    let interactions: [Interaction]
 
     init(leki: [Drug], interakcje: [Interaction]) {
         self.drugs = leki
-        self.inteactions = interakcje
+        self.interactions = interakcje
     }
     
-    func findInteaction(_ substance_1: String, _ substance_2: String) -> Interaction? {
-        self.inteactions.first(where:  {$0.firstActiveSubstance == substance_1 && $0.secondActiveSubstance == substance_2 || $0.secondActiveSubstance == substance_1 && $0.firstActiveSubstance == substance_2}) // dwoch substancje znajduja inteakcje jesli sitnieja.
+    func findInteraction(_ substance_1: String, _ substance_2: String) -> Interaction? {
+        self.interactions.first(where:  {$0.firstActiveSubstance == substance_1 && $0.secondActiveSubstance == substance_2 || $0.secondActiveSubstance == substance_1 && $0.firstActiveSubstance == substance_2}) // dwoch substancje znajduja inteakcje jesli sitnieja.
     }
 }

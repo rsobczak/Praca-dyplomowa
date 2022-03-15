@@ -59,7 +59,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         	
-        let path = Bundle.main.path(forResource: "Leki", ofType: "JSON") //1.         wskazujemy ścieżke do JSON
+        let path = Bundle.main.path(forResource: "Leki", ofType: "JSON") //1. wskazujemy ścieżke do JSON
         //print(path)
         
         //2. wczytanie pliku
@@ -94,7 +94,7 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         for dictInteraction in arrInteractions {
             let substancja_1 = dictInteraction["substancja_1"]! as! String
             let substancja_2 = dictInteraction["substancja_2"]! as! String
-            let stopienInterakcji = levelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
+            let stopienInterakcji = LevelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
             let opis = dictInteraction["opis"]! as! String
             let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, description: opis)
                 
@@ -138,15 +138,15 @@ class CompareViewController: BaseViewController, UIPickerViewDelegate, UIPickerV
         let selecetedRow2: Int = pickerViewDrug2.selectedRow(inComponent: 0)
         let activSubstance1 = bazaDanych.drugs[selectedRow1].activeSubstance
         let acitvSubstance2 = bazaDanych.drugs[selecetedRow2].activeSubstance
-        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, acitvSubstance2)
+        let optionalInterakcja = bazaDanych.findInteraction(activSubstance1, acitvSubstance2)
         
         var tytul: String = "TEST"
         var wiadomosc:String =
-            "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2)"
+            "Interakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2)"
         
         if let interakcje = optionalInterakcja {
             tytul = "Uwaga"
-            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2) \n\nStopien: \(interakcje.levelOfInteaction )"
+            wiadomosc =  "Interakcja pomiedzy \(activSubstance1) oraz \(acitvSubstance2) \n\nStopien: \(interakcje.levelOfInteraction )"
         } else {
             tytul = "Nie znaleziono"
             wiadomosc = "nie znaleziono interakcji pomiedzy lekami!"

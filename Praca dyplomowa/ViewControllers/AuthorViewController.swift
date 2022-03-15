@@ -17,6 +17,5 @@ class AuthorViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Author"
-        //view.backgroundColor = .yellow
     }
 }

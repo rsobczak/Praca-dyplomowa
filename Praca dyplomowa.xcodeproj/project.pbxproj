@@ -10,7 +10,7 @@
 		5844BF5F265C2FD300DB5A4B /* Lek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF5E265C2FD300DB5A4B /* Lek.swift */; };
 		5844BF62265C2FE100DB5A4B /* Interakcja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF61265C2FE100DB5A4B /* Interakcja.swift */; };
 		5844BF65265C2FF900DB5A4B /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF64265C2FF900DB5A4B /* DataBase.swift */; };
-		5844BF68265C311C00DB5A4B /* levelOfInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF67265C311C00DB5A4B /* levelOfInteraction.swift */; };
+		5844BF68265C311C00DB5A4B /* LevelOfInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844BF67265C311C00DB5A4B /* LevelOfInteraction.swift */; };
 		5859ABE72666CD6500BF924D /* AlcoholCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */; };
 		586F9BFA25D88B7B00D42F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BF925D88B7B00D42F79 /* AppDelegate.swift */; };
 		586F9BFC25D88B7B00D42F79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F9BFB25D88B7B00D42F79 /* SceneDelegate.swift */; };
@@ -37,7 +37,7 @@
 		5844BF5E265C2FD300DB5A4B /* Lek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lek.swift; sourceTree = "<group>"; };
 		5844BF61265C2FE100DB5A4B /* Interakcja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interakcja.swift; sourceTree = "<group>"; };
 		5844BF64265C2FF900DB5A4B /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
-		5844BF67265C311C00DB5A4B /* levelOfInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOfInteraction.swift; sourceTree = "<group>"; };
+		5844BF67265C311C00DB5A4B /* LevelOfInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfInteraction.swift; sourceTree = "<group>"; };
 		5859ABE62666CD6500BF924D /* AlcoholCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholCompareViewController.swift; sourceTree = "<group>"; };
 		586F9BF625D88B7B00D42F79 /* Praca dyplomowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praca dyplomowa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F9BF925D88B7B00D42F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				5844BF5E265C2FD300DB5A4B /* Lek.swift */,
 				5844BF61265C2FE100DB5A4B /* Interakcja.swift */,
 				5844BF64265C2FF900DB5A4B /* DataBase.swift */,
-				5844BF67265C311C00DB5A4B /* levelOfInteraction.swift */,
+				5844BF67265C311C00DB5A4B /* LevelOfInteraction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 				58D597812653D902001F8126 /* CustomTextView.swift in Sources */,
 				58D597932653D9F7001F8126 /* AuthorViewController.swift in Sources */,
 				58D5977B2653D8C0001F8126 /* CustomSmallButton.swift in Sources */,
-				5844BF68265C311C00DB5A4B /* levelOfInteraction.swift in Sources */,
+				5844BF68265C311C00DB5A4B /* LevelOfInteraction.swift in Sources */,
 				58A5A56426559BBA0018531B /* SettingsViewController.swift in Sources */,
 				58D5978F2653D9CF001F8126 /* AboutViewController.swift in Sources */,
 				5844BF65265C2FF900DB5A4B /* DataBase.swift in Sources */,

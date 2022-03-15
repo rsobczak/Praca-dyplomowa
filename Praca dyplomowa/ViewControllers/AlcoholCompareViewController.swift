@@ -85,7 +85,7 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
 //Constants
             let substancja_1 = dictInteraction["substancja_1"]! as! String
             let substancja_2 = dictInteraction["substancja_2"]! as! String
-            let stopienInterakcji = levelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
+            let stopienInterakcji = LevelOfInteraction(rawValue:dictInteraction["stopien_interakcji"]! as! String)!
             let opis = dictInteraction["opis"]! as! String
             let interaction = Interaction(substancja_1: substancja_1, substancja_2: substancja_2, stopienInterakcji: stopienInterakcji, description: opis)
                 
@@ -128,16 +128,16 @@ class AlcoholCompareViewController: BaseViewController, UIPickerViewDelegate, UI
         let selectedRow: Int = pickerViewDrug.selectedRow(inComponent: 0)
         let activSubstance1 = bazaDanych.drugs[selectedRow].activeSubstance
         let acitvSubstance2: String = "Alcohol"
-        let optionalInterakcja = bazaDanych.findInteaction(activSubstance1, substancja2: acitvSubstance2)
+        let optionalInterakcja = bazaDanych.findInteraction(activSubstance1, acitvSubstance2)
         
 //Variables
         var tytul: String
         var wiadomosc:String =
-            "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem"
+            "Interakcja pomiedzy \(activSubstance1) oraz alkoholem"
         
         if let interakcje = optionalInterakcja {
             tytul = "Uwaga"
-            wiadomosc =  "Inteakcja pomiedzy \(activSubstance1) oraz alkoholem \n\nStopien: \(interakcje.levelOfInteaction )"
+            wiadomosc =  "Interakcja pomiedzy \(activSubstance1) oraz alkoholem \n\nStopien: \(interakcje.levelOfInteraction )"
         } else {
             tytul = "Nie znaleziono"
             wiadomosc = "\nNie łącz ŻADNYCH leków z alkoholem !!!"
