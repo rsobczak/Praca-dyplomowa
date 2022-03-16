@@ -10,6 +10,7 @@ import Foundation
 
 //MARK: Information about a drug
 
+// Rename the file into English
 class Drug {
     let name: String
     let activeSubstance: String

@@ -20,10 +20,9 @@ class CustomSmallButton: UIButton{
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowRadius = 3
         self.layer.shadowOpacity = 0.3
-        self.layer.shadowOffset =     CGSize(width: 0, height: 0)
+        self.layer.shadowOffset = CGSize(width: 0, height: 0)
         self.layer.cornerRadius = self.frame.height / 2
         self.frame.size = CGSize(width: 75, height: 40)
         self.titleLabel?.font = self.titleLabel?.font.withSize(12)
-       
     }
 }

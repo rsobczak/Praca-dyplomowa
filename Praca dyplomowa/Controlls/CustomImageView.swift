@@ -17,9 +17,7 @@ class CustomImageView : UIImageView {
         self.backgroundColor = .systemBlue
         self.contentMode = .scaleToFill
         self.layer.borderWidth = 3
-        //dlaczego te dwa poniezej nie działają ?
         self.layer.borderColor = UIColor.systemBlue.cgColor
         self.layer.cornerRadius = 20
-        
     }
 }

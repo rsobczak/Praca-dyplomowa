@@ -10,17 +10,18 @@ import Foundation
 
 //MARK: Information about a interactions
 
+// Rename the type members and file into English
 class Interaction {
-    let substancja_1: String
-    let substancja_2: String
-    let stopienInterakcji: StopienInterakcji
-    let opis: String
+    let firstActiveSubstance: String
+    let secondActiveSubstance: String
+    let levelOfInteraction: LevelOfInteraction
+    let description: String
    
     
-    init(substancja_1: String, substancja_2: String, stopienInterakcji: StopienInterakcji, opis: String) {
-        self.substancja_1 = substancja_1
-        self.substancja_2 = substancja_2
-        self.stopienInterakcji = stopienInterakcji
-        self.opis = opis
+    init(substancja_1: String, substancja_2: String, stopienInterakcji: LevelOfInteraction, description: String) {
+        self.firstActiveSubstance = substancja_1
+        self.secondActiveSubstance = substancja_2
+        self.levelOfInteraction = stopienInterakcji
+        self.description = description
     }
 }
